@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Giphy Reactions Search</h1>
+        </div>
+    </div>
+    <div id="gifButtonsView" class="container">
+    </div>
+
+    <div class="container">
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+            
+            <div id="gifsView"></div>
+        </div>
+         
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <form id="gif-form" role="form">
+                <h2><legend>Reactions</legend></h2>
+                <div class="form-group">
+                    <label for="reaction-input">Add your reaction below</label>
+                    <input type="text" id="reaction-input">
+                </div>
+                <input id="addGif" type="submit" value="Add your reaction" class="btn btn-primary">
+
+            </form>    
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script> 
+</body>
+</html>
